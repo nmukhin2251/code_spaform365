@@ -1,0 +1,7 @@
+<div data-bind="$init:{}, css: {'ge-designmode': designmode}">
+	<label class="ms-Label" data-bind="text: title, visible: showTitle, css: enableRequired"></label>
+	<div class="ms-TextField  ms-TextField--placeholder" >
+		<label class="ms-Label" style="display: none;" data-bind="text: description, style: {display: enableDescription()}"></label>
+		<textarea class="ms-TextField-field is-formfield validationBox"  style="height: auto; z-index:0" type="text" data-bind="textInput: value, attr: {rows: numlines}, enable: enableValue, enterkey: {}"></textarea>
+	</div>
+</div>

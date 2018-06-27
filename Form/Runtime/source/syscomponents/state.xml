@@ -1,0 +1,18 @@
+<div class="ms-Grid" params="'namespace':'state'" style="border:5px; border-color:#0078d7; border-style:solid; padding:5px; padding-top:0px;">
+    <div class="ms-Grid-row">
+        <div class="ms-u-md12 ms-u-sm12 ms-Grid-col ms-u-lg12" style="background-color:#0078d7; color:white; padding-bottom: 5px;">
+			<b>
+				<div><span  data-bind="text: stName"></span></div>
+			</b>
+        </div>
+    </div>
+    <div class="ms-Grid-row">
+        <div class="ms-u-lg12 ms-u-md12 ms-u-sm12 ms-Grid-col">
+            <p>Lorem ipsum dolores</p>
+        </div>
+    </div>
+    <div class="ms-Grid-row">
+        <div class="ms-u-lg12 ms-u-md12 ms-u-sm12 ms-Grid-col">
+        </div>
+    </div>
+</div>

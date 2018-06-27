@@ -1,0 +1,7 @@
+<div data-bind="css: {'ge-designmode': designmode}">
+	<label class="ms-Label" data-bind="text: title, visible: showTitle, css: enableRequired"></label>
+	<div class="ms-TextField ms-TextField--placeholder" >
+		<label class="ms-Label" style="display: none;" data-bind="text: description, style: {display: enableDescription()}"></label>
+		<input class="ms-TextField-field is-formfield" style="z-index:0" type="text" data-bind="textInput: value, enable: enableValue, enterkey: {}" />
+	</div>
+</div>

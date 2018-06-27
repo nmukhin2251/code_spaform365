@@ -1,0 +1,61 @@
+/* ko.validation */
+.validationMessage {
+	color: red !important;
+	font-size: 11px !important;
+}
+input.validationElement {
+	border: 1px solid #cc0000 !important;
+}
+/*overrides fabric.components.css to support dropdown validation*/
+.ms-Dropdown:hover .ms-Dropdown-title.validationElement,
+.ms-Dropdown:focus .ms-Dropdown-title.validationElement,
+.ms-Dropdown:active .ms-Dropdown-title.validationElement {
+  border-color: #cc0000;
+}
+.ms-Dropdown-title.validationElement{
+	border: 1px solid #cc0000;
+}
+/*validation box for radio or check box groups*/
+.validationBox{
+	padding-left: 8px;
+}
+.validationBox.validationElement{
+	border: 1px solid #cc0000;
+}
+/* dropdown icon offset when validation message is visible*/
+.ms-Dropdown-caretDown.validationElement{
+	bottom: 28px !important;
+}
+/* datepicker icon offset when validation message is visible*/
+.ms-DatePicker-event.validationElement{
+	bottom: 24px !important;
+}
+/* filepicker*/
+.ms-FilePicker-dialog {
+	right: 15px;
+	bottom: 18px !important;
+}
+.ms-FilePicker-dialog.validationElement{
+	bottom: 36px !important;
+	right: 15px !important;
+}
+/* peoplepicker*/
+/*
+.ms-PeoplePicker-searchBox {
+	display: none;
+}
+
+.ms-PeoplePicker-searchBox.is-active {
+	display: block !important;
+}
+*/
+/**/
+.ms-PeoplePicker-results.is-empty {
+	display: none !important;
+}
+.ms-PeoplePicker.validationElement{
+	border: 1px solid #cc0000;
+}
+.ms-PeoplePicker-searchBox.is-disabled {
+	border-bottom: none !important;
+}

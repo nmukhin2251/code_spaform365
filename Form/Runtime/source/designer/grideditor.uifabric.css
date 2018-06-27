@@ -1,0 +1,462 @@
+
+.ge-control-selected {
+	border: 5px solid;
+	border-color: #999;
+}
+
+.ge-mainControls {
+  position: relative;
+  min-height: 22px;
+  margin-bottom: 10px;
+}
+.ge-mainControls .ge-wrapper {
+  padding-top: 5px;
+}
+.ge-mainControls .ge-wrapper.ge-top .container {
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+.ge-mainControls .ge-wrapper.ge-fixed {
+  position: fixed;
+  z-index: 20;
+  top: 0;
+}
+.ge-mainControls .ge-addRowGroup .btn.btn-primary {
+  background: #f4f4f4;
+  color: #666666;
+  border-color: #999;
+}
+.ge-mainControls .ge-addRowGroup .ge-row-icon {
+  display: inline-block;
+  width: 48px;
+  margin: 0;
+}
+.ge-mainControls .ge-addRowGroup .ge-row-icon .ms-Grid-col {
+  height: 10px;
+  background: #666;
+  padding: 0;
+  border-left: 2px solid #f4f4f4;
+}
+.ge-mainControls .ge-layout-mode {
+  margin-left: 5px;
+}
+.ge-mainControls .btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+.ge-html-output {
+  width: 100%;
+  display: none;
+}
+/* Not editing */
+.ge-canvas .ge-tools-drawer {
+  display: none;
+}
+/* While editing */
+.ge-canvas.ge-editing {
+  /* Content area */
+  /* Sorting */
+}
+.ge-canvas.ge-editing .ge-tools-drawer {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: blue;
+  margin: 0 -5px 5px;
+  display: block;
+}
+.ge-canvas.ge-editing .ge-tools-drawer > a {
+  display: inline-block;
+  padding: 5px;
+}
+.ge-canvas.ge-editing .ge-tools-drawer > a:hover {
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+.ge-canvas.ge-editing .ge-tools-drawer .ge-details {
+  padding: 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  display: none;
+}
+.ge-canvas.ge-editing .ge-tools-drawer .ge-details .btn-group a {
+  color: #333;
+}
+.ge-canvas.ge-editing .ge-tools-drawer .ge-details .btn-group a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.ge-canvas.ge-editing .ge-tools-drawer .ge-details input.ge-id {
+  border: 1px solid #7F7F7F;
+  border-radius: 4px;
+  font-size: 11px;
+  padding: 2px 5px;
+  margin-right: 5px;
+  width: 80px;
+}
+.ge-canvas.ge-editing .ms-Grid-row {
+  background-color: #efefef;
+  border: 1px solid #999999;
+  padding: 0 5px 5px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.ge-canvas.ge-editing .ms-Grid-row > .ge-tools-drawer {
+  background: #e5e5e5;
+}
+.ge-canvas.ge-editing .ms-Grid-row > .ge-tools-drawer > a {
+  color: #666;
+}
+.ge-canvas.ge-editing .ms-Grid-row > .ge-tools-drawer > a.ge-add-column {
+  color: #178acc;
+}
+/*
+.ge-canvas.ge-editing .ge-component {
+  background-color: #efefef;
+  border: 1px solid #999999;
+  padding: 0 5px 5px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+*/
+.ge-canvas.ge-editing .ge-component  .ge-tools-drawer {
+  background: #e5e5e5;
+}
+.ge-canvas.ge-editing .ge-component  .ge-tools-drawer > a {
+  color: #666;
+}
+.ge-canvas.ge-editing .ge-component  .ge-tools-drawer > a.ge-add-column {
+  color: #178acc;
+}
+
+
+.ge-canvas.ge-editing .ms-Grid-col {
+  background-color: rgba(47, 164, 231, 0.15);
+  border: 1px solid #2fa4e7;
+  padding: 0 5px 5px;
+}
+.ge-canvas.ge-editing .ms-Grid-col > .ge-tools-drawer {
+  background: #afd5ea;
+}
+.ge-canvas.ge-editing .ms-Grid-col > .ge-tools-drawer a {
+  color: #178acc;
+}
+.ge-canvas.ge-editing .ms-Grid-col > .ge-tools-drawer > a.ge-add-row {
+  color: #666666;
+}
+.ge-canvas.ge-editing .ge-content-type-tinymce.active {
+  outline: 1px dotted #333;
+}
+.ge-canvas.ge-editing .ui-sortable-placeholder {
+  background: rgba(255, 255, 0, 0.2);
+  visibility: visible !important;
+  min-height: 50px;
+}
+/* Layout modes */
+.ge-canvas.ge-layout-phone {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ge-canvas.ge-layout-phone .ms-u-md1,
+.ge-canvas.ge-layout-phone .ms-u-lg1,
+.ge-canvas.ge-layout-phone .ms-u-lg1 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-phone .ms-u-md2,
+.ge-canvas.ge-layout-phone .ms-u-lg2,
+.ge-canvas.ge-layout-phone .ms-u-lg2 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-phone .ms-u-md3,
+.ge-canvas.ge-layout-phone .ms-u-lg3,
+.ge-canvas.ge-layout-phone .ms-u-lg3 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-phone .ms-u-md4,
+.ge-canvas.ge-layout-phone .ms-u-lg4,
+.ge-canvas.ge-layout-phone .ms-u-lg4 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-phone .ms-u-md5,
+.ge-canvas.ge-layout-phone .ms-u-lg5,
+.ge-canvas.ge-layout-phone .ms-u-lg5 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-phone .ms-u-md6,
+.ge-canvas.ge-layout-phone .ms-u-lg6,
+.ge-canvas.ge-layout-phone .ms-u-lg6 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-phone .ms-u-md7,
+.ge-canvas.ge-layout-phone .ms-u-lg7,
+.ge-canvas.ge-layout-phone .ms-u-lg7 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-phone .ms-u-md8,
+.ge-canvas.ge-layout-phone .ms-u-lg8,
+.ge-canvas.ge-layout-phone .ms-u-lg8 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-phone .ms-u-md9,
+.ge-canvas.ge-layout-phone .ms-u-lg9,
+.ge-canvas.ge-layout-phone .ms-u-lg9 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-phone .ms-u-md10,
+.ge-canvas.ge-layout-phone .ms-u-lg10,
+.ge-canvas.ge-layout-phone .ms-u-lg10 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-phone .ms-u-md11,
+.ge-canvas.ge-layout-phone .ms-u-lg11,
+.ge-canvas.ge-layout-phone .ms-u-lg11 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-phone .ms-u-md12,
+.ge-canvas.ge-layout-phone .ms-u-lg12,
+.ge-canvas.ge-layout-phone .ms-u-lg12 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-phone .ms-u-sm1 {
+  width: 8.33333333%;
+}
+.ge-canvas.ge-layout-phone .ms-u-sm2 {
+  width: 16.66666667%;
+}
+.ge-canvas.ge-layout-phone .ms-u-sm3 {
+  width: 25%;
+}
+.ge-canvas.ge-layout-phone .ms-u-sm4 {
+  width: 33.33333333%;
+}
+.ge-canvas.ge-layout-phone .ms-u-sm5 {
+  width: 41.66666667%;
+}
+.ge-canvas.ge-layout-phone .ms-u-sm6 {
+  width: 50%;
+}
+.ge-canvas.ge-layout-phone .ms-u-sm7 {
+  width: 58.33333333%;
+}
+.ge-canvas.ge-layout-phone .ms-u-sm8 {
+  width: 66.66666667%;
+}
+.ge-canvas.ge-layout-phone .ms-u-sm9 {
+  width: 75%;
+}
+.ge-canvas.ge-layout-phone .ms-u-sm10 {
+  width: 83.33333333%;
+}
+.ge-canvas.ge-layout-phone .ms-u-sm11 {
+  width: 91.66666667%;
+}
+.ge-canvas.ge-layout-phone .ms-u-sm12 {
+  width: 100%;
+}
+.ge-canvas.ge-layout-tablet {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ge-canvas.ge-layout-tablet .ms-u-sm1,
+.ge-canvas.ge-layout-tablet .ms-u-lg1,
+.ge-canvas.ge-layout-tablet .ms-u-lg1 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-tablet .ms-u-sm2,
+.ge-canvas.ge-layout-tablet .ms-u-lg2,
+.ge-canvas.ge-layout-tablet .ms-u-lg2 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-tablet .ms-u-sm3,
+.ge-canvas.ge-layout-tablet .ms-u-lg3,
+.ge-canvas.ge-layout-tablet .ms-u-lg3 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-tablet .ms-u-sm4,
+.ge-canvas.ge-layout-tablet .ms-u-lg4,
+.ge-canvas.ge-layout-tablet .ms-u-lg4 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-tablet .ms-u-sm5,
+.ge-canvas.ge-layout-tablet .ms-u-lg5,
+.ge-canvas.ge-layout-tablet .ms-u-lg5 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-tablet .ms-u-sm6,
+.ge-canvas.ge-layout-tablet .ms-u-lg6,
+.ge-canvas.ge-layout-tablet .ms-u-lg6 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-tablet .ms-u-sm7,
+.ge-canvas.ge-layout-tablet .ms-u-lg7,
+.ge-canvas.ge-layout-tablet .ms-u-lg7 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-tablet .ms-u-sm8,
+.ge-canvas.ge-layout-tablet .ms-u-lg8,
+.ge-canvas.ge-layout-tablet .ms-u-lg8 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-tablet .ms-u-sm9,
+.ge-canvas.ge-layout-tablet .ms-u-lg9,
+.ge-canvas.ge-layout-tablet .ms-u-lg9 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-tablet .ms-u-sm10,
+.ge-canvas.ge-layout-tablet .ms-u-lg10,
+.ge-canvas.ge-layout-tablet .ms-u-lg10 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-tablet .ms-u-sm11,
+.ge-canvas.ge-layout-tablet .ms-u-lg11,
+.ge-canvas.ge-layout-tablet .ms-u-lg11 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-tablet .ms-u-sm12,
+.ge-canvas.ge-layout-tablet .ms-u-lg12,
+.ge-canvas.ge-layout-tablet .ms-u-lg12 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-tablet .ms-u-md1 {
+  width: 8.33333333%;
+}
+.ge-canvas.ge-layout-tablet .ms-u-md2 {
+  width: 16.66666667%;
+}
+.ge-canvas.ge-layout-tablet .ms-u-md3 {
+  width: 25%;
+}
+.ge-canvas.ge-layout-tablet .ms-u-md4 {
+  width: 33.33333333%;
+}
+.ge-canvas.ge-layout-tablet .ms-u-md5 {
+  width: 41.66666667%;
+}
+.ge-canvas.ge-layout-tablet .ms-u-md6 {
+  width: 50%;
+}
+.ge-canvas.ge-layout-tablet .ms-u-md7 {
+  width: 58.33333333%;
+}
+.ge-canvas.ge-layout-tablet .ms-u-md8 {
+  width: 66.66666667%;
+}
+.ge-canvas.ge-layout-tablet .ms-u-md9 {
+  width: 75%;
+}
+.ge-canvas.ge-layout-tablet .ms-u-md10 {
+  width: 83.33333333%;
+}
+.ge-canvas.ge-layout-tablet .ms-u-md11 {
+  width: 91.66666667%;
+}
+.ge-canvas.ge-layout-tablet .ms-u-md12 {
+  width: 100%;
+}
+.ge-canvas.ge-layout-desktop {
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ge-canvas.ge-layout-desktop .ms-u-sm1,
+.ge-canvas.ge-layout-desktop .ms-u-md1,
+.ge-canvas.ge-layout-desktop .ms-u-lg1 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-desktop .ms-u-sm2,
+.ge-canvas.ge-layout-desktop .ms-u-md2,
+.ge-canvas.ge-layout-desktop .ms-u-lg2 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-desktop .ms-u-sm3,
+.ge-canvas.ge-layout-desktop .ms-u-md3,
+.ge-canvas.ge-layout-desktop .ms-u-lg3 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-desktop .ms-u-sm4,
+.ge-canvas.ge-layout-desktop .ms-u-md4,
+.ge-canvas.ge-layout-desktop .ms-u-lg4 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-desktop .ms-u-sm5,
+.ge-canvas.ge-layout-desktop .ms-u-md5,
+.ge-canvas.ge-layout-desktop .ms-u-lg5 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-desktop .ms-u-sm6,
+.ge-canvas.ge-layout-desktop .ms-u-md6,
+.ge-canvas.ge-layout-desktop .ms-u-lg6 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-desktop .ms-u-sm7,
+.ge-canvas.ge-layout-desktop .ms-u-md7,
+.ge-canvas.ge-layout-desktop .ms-u-lg7 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-desktop .ms-u-sm8,
+.ge-canvas.ge-layout-desktop .ms-u-md8,
+.ge-canvas.ge-layout-desktop .ms-u-lg8 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-desktop .ms-u-sm9,
+.ge-canvas.ge-layout-desktop .ms-u-md9,
+.ge-canvas.ge-layout-desktop .ms-u-lg9 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-desktop .ms-u-sm10,
+.ge-canvas.ge-layout-desktop .ms-u-md10,
+.ge-canvas.ge-layout-desktop .ms-u-lg10 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-desktop .ms-u-sm11,
+.ge-canvas.ge-layout-desktop .ms-u-md11,
+.ge-canvas.ge-layout-desktop .ms-u-lg11 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-desktop .ms-u-sm12,
+.ge-canvas.ge-layout-desktop .ms-u-md12,
+.ge-canvas.ge-layout-desktop .ms-u-lg12 {
+  width: inherit;
+}
+.ge-canvas.ge-layout-desktop .ms-u-lg1 {
+  width: 8.33333333%;
+}
+.ge-canvas.ge-layout-desktop .ms-u-lg2 {
+  width: 16.66666667%;
+}
+.ge-canvas.ge-layout-desktop .ms-u-lg3 {
+  width: 25%;
+}
+.ge-canvas.ge-layout-desktop .ms-u-lg4 {
+  width: 33.33333333%;
+}
+.ge-canvas.ge-layout-desktop .ms-u-lg5 {
+  width: 41.66666667%;
+}
+.ge-canvas.ge-layout-desktop .ms-u-lg6 {
+  width: 50%;
+}
+.ge-canvas.ge-layout-desktop .ms-u-lg7 {
+  width: 58.33333333%;
+}
+.ge-canvas.ge-layout-desktop .ms-u-lg8 {
+  width: 66.66666667%;
+}
+.ge-canvas.ge-layout-desktop .ms-u-lg9 {
+  width: 75%;
+}
+.ge-canvas.ge-layout-desktop .ms-u-lg10 {
+  width: 83.33333333%;
+}
+.ge-canvas.ge-layout-desktop .ms-u-lg11 {
+  width: 91.66666667%;
+}
+.ge-canvas.ge-layout-desktop .ms-u-lg12 {
+  width: 100%;
+}

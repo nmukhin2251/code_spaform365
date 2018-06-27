@@ -1,0 +1,33 @@
+/*@import url("fabric.min.css");*/
+/*@import url("fabric.components.min_.css");*/
+/*@import url("medline.forms.parsley.css");*/
+
+@import url("fabric.min.css");
+@import url("fabric.components.min.css");
+/*@import url("font-awesome.min.css");*/
+@import url("grideditor.forms.css");
+
+
+/*
+.ms-Grid-row:before, .ms-grid-row:after   {
+	display:block !important;
+}
+*/
+#contentBox {
+	margin-left: 20px;
+}
+#sideNavBox {
+	display: none !important;
+}
+
+.codeeditor {
+	margin: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+/*
+
+*/

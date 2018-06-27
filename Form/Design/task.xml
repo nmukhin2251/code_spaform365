@@ -1,0 +1,25 @@
+<div class="ms-Grid" title="spaf_000040000main" params="'InternalName':'spaf_000040000main','namespace':'task'">
+    <div class="ms-Grid-row">
+		<div class="ms-u-lg12 ms-u-md12 ms-u-sm12 ms-Grid-col">
+            <component-textbox id='1530127888178' params= "'name':'','namespace':'task','promoted':true,'InternalName':'Title','Title':'Task Name','Description':'','MaxLength':255,'DefaultValue':null,'FieldTypeKind':2,'ReadOnlyField':false,'Required':true"></component-textbox>
+            <component-filebox id='1530127888179' params= "'name':'','namespace':'task','promoted':true,'Filter':'','PreviewAttachments':true,'InternalName':'Attachments','Title':'Attachments','AllowMultipleValues':false,'Description':'','ReadOnlyField':false,'FieldTypeKind':19,'Required':false"></component-filebox>
+            <component-radiogroup id='1530127888180' params= "'name':'','namespace':'task','promoted':true,'InternalName':'Priority','Title':'Priority','Description':'','ReadOnlyField':false,'Required':false,'FieldTypeKind':6,'Choices':['(1) High','(2) Normal','(3) Low']"></component-radiogroup>
+            <component-radiogroup id='1530127888181' params= "'name':'','namespace':'task','promoted':true,'InternalName':'Status','Title':'Task Status','Description':'','ReadOnlyField':false,'Required':false,'FieldTypeKind':6,'Choices':['Not Started','In Progress','Completed','Deferred','Waiting on someone else']"></component-radiogroup>
+            <component-numberbox id='1530127888182' params= "'name':'','namespace':'task','promoted':true,'InternalName':'PercentComplete','Title':'% Complete','Description':'','MaximumValue':1,'MinimumValue':0,'DefaultValue':'0','ReadOnlyField':false,'Percentage':true,'FieldTypeKind':9,'Required':false"></component-numberbox>
+            <component-personabox id='1530127888183' params= "'name':'','namespace':'task','promoted':true,'InternalName':'AssignedTo','Title':'Assigned To','AllowMultipleValues':true,'Description':'','DefaultValue':null,'LookupField':'ImnName','LookupList':'{4096c837-7073-4626-a69b-61b3741e260c}','LookupWebId':'226d7fd2-c729-4082-9e92-997373dbf43e','Presence':true,'SelectionGroup':0,'SelectionMode':1,'ReadOnlyField':false,'FieldTypeKind':20,'Color':'ms-Persona-initials--green','Required':false"></component-personabox>
+            <component-notebox id='1530127888184' params= "'name':'','namespace':'task','promoted':true,'InternalName':'Body','Title':'Description','Description':'','MaxLength':10000,'RichText':true,'NumLines':6,'DefaultValue':null,'FieldTypeKind':3,'ReadOnlyField':false,'Required':false"></component-notebox>
+            <component-datetimebox id='1530127888185' params= "'name':'','namespace':'task','promoted':true,'InternalName':'StartDate','Title':'Start Date','Description':'','Format':'DateOnly','FriendlyDisplayFormat':2,'DefaultValue':null,'ReadOnlyField':false,'DisplayFormat':0,'FieldTypeKind':4,'Required':false"></component-datetimebox>
+            <component-datetimebox id='1530127888186' params= "'name':'','namespace':'task','promoted':true,'InternalName':'DueDate','Title':'Due Date','Description':'','Format':'DateOnly','FriendlyDisplayFormat':2,'DefaultValue':null,'ReadOnlyField':false,'DisplayFormat':0,'FieldTypeKind':4,'Required':false"></component-datetimebox>
+		</div>
+		<div class="ms-u-md4 ms-u-sm4 ms-u-lg3 ms-Grid-col">
+			<component-transition_save title="spaf_000050000save" params="'namespace':'task','InternalName':'spaf_000050000save','componentId':'transition_save','visible':true,'Title':'Save','from':'spaf_000010newform','to':'spaf_00001000draft','closeonclick':false,'emailNotofication':false,'logHistory':'','stateComponentId':'spaf_000040000main'"></component-transition_save>
+			<component-transition_save title="spaf_0000500update" params="'namespace':'task','InternalName':'spaf_0000500update','componentId':'transition_save','visible':true,'Title':'Update','from':'spaf_00001000draft','to':'spaf_00001000draft','closeonclick':false,'stateComponentId':'spaf_000040000main'"></component-transition_save>
+		</div>
+		<div class="ms-u-md4 ms-u-sm4 ms-u-lg3 ms-Grid-col">
+			<component-transition_delete title="spaf_0000500delete" params="'namespace':'task','InternalName':'spaf_0000500delete','componentId':'transition_delete','visible':true,'Title':'Delete','from':'spaf_00001000draft','to':'spaf_000010newform','closeonclick':false,'stateComponentId':'spaf_000040000main'"></component-transition_delete>
+		</div>
+		<div class="ms-u-md4 ms-u-sm4 ms-u-lg3 ms-Grid-col">
+			<component-transition_close title="spaf_00005000close" params="'namespace':'task','InternalName':'spaf_00005000close','componentId':'transition_close','visible':true,'Title':'Close','from':'*','to':'*','closeonclick':false,'stateComponentId':'spaf_000040000main'"></component-transition_close>
+		</div>
+	</div>
+</div>

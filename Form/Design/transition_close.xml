@@ -1,0 +1,7 @@
+<div class="ms-Table" data-bind="visible: visible, css: {'ge-designmode': designmode}">
+	<div class="ms-Table-row">
+		<span class="ms-Table-cell" style="float:left; width:80px;">
+			<button type="button" data-bind="visible: show, click: click, css: valid" class="ms-Button ms-Button--primary"><span class="ms-Button-label" data-bind="text: title"></span></button>
+		</span>
+	</div>
+</div>

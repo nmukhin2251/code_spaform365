@@ -1,0 +1,106 @@
+/*hover view styles*/
+.ms-srch-hover-content div {
+    overflow: hidden;
+}
+
+.ms-srch-hover-actions {
+    background: rgb(241, 241, 241);
+    padding: 17px 20px;
+    overflow: hidden;
+}
+
+
+
+.ms-srch-hover-action {
+    border-right: 1px solid #000000;
+}
+
+.ms-srch-hover-action.copyLinkContainer {
+    border-right: none;
+}
+
+.ms-srch-hover-content div {
+    overflow: hidden;
+}
+
+.ms-srch-hover-action {
+    padding-right: 10px;
+    margin-right: 10px;
+    padding-top: 3px;
+    float: left;
+}
+
+.ms-srch-hover-close {
+    width : 60px;
+    text-align: center;
+    padding: 2px 10px;
+    background-color: #5DA200;
+    float: right;
+}
+
+.ms-srch-hover-close>a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.ms-srch-hover-copylinkinner {
+    width: 100%;
+    text-align: left;
+    padding-top: 5px;
+    font-size: 13px;
+    margin-top: 10px;
+    overflow: auto;
+    size: 100%;
+    word-wrap: true;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.ms-srch-hover-content div {
+    overflow: hidden;
+}
+
+.copyLinkMessage {
+    padding: 0px 0px 5px 5px;
+}
+
+#copyDocumentLink {
+    width: 98%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.ms-srch-hover-header {
+    padding: 10px 0px 10px 40px;
+    word-wrap: break-word;
+}
+
+#s4-workspace #s4-bodyContainer {
+    padding-bottom: 0px;
+}
+.hidecopylinkinner{
+  display : none;
+}
+
+.showcopylinkinner{
+  display : block;
+}
+
+/*end of hover view styles*/
+
+/*dialog box css*/
+#externalLinkDialog{
+  display: none;
+}
+
+.ms-srch-hover-innerContainer2 {
+    position: relative;
+    margin: 0px;
+    background-color: #fff;
+    border: none;
+    padding: 0px;
+    box-shadow: none;
+    display: inline-block;
+    width : 100%;
+}

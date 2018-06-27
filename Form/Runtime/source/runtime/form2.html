@@ -1,0 +1,7 @@
+<div data-bind="template: {name: 'form-template'}" id="form-container"></div>
+<div id="templatesblock">
+    <script type="text/html" id="form-template">
+        <div data-bind='statesPool: statesPoolViewModel'></div>
+        <div data-bind='attr: {title: contentTypeTitle}, visible: showMainForm'><component-form params=""></component-form></div>
+    </script>
+</div>

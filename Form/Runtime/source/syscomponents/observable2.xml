@@ -1,0 +1,3 @@
+<div data-bind="visible: designmode, css: {'ge-designmode': designmode}">
+	<span data-bind="text: internalName"></span><span>:</span><span data-bind="text: value" ></span>
+</div>

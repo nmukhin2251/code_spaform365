@@ -1,0 +1,12 @@
+# List Views
+AllItems.aspx
+calendar.aspx
+completed.aspx
+gantt.aspx
+late.aspx
+MyItems.aspx
+Upcoming.aspx
+
+#Folders to ignore
+Attachments
+Task
